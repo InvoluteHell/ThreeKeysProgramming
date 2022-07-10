@@ -18,7 +18,7 @@ Chrome devtools (this solution rely on the Chrome Devtools. It cannot run as a n
 
 ```js
 // Note: $ + '' equals to "'function $(selector, [startNode]) { [Command Line API] }'" in Chrome Devtools.
-_ = [...($ + ''), ...([][$] + '')]
+_ = $ + ''
 $1 = 2 / 2
 $3 = 2 + $1
 $4 = 2 + 2
