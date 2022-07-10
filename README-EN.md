@@ -8,10 +8,10 @@ Free of choice three keys to complate your master pices! ~~Cue Jay Chou 'ThreeKe
 
 1. Candidate have free of choice three [letter / number] for coding, literally **three**.
 2. Beside of your favour of choice, all ASCII symbols on keyboard are free for use.
-3. The goal is print out exact `Hello, World!` case senstive. no more funny stuff this time pls.
-4. Winner is select by minnimum code size. (Exampt screenshoot and doc)
+3. The goal is print out exact `Hello, World!` case senstive, no more funny stuff this time pls.
+4. Winner is select by minnimum code size. (exampt screenshoot and doc)
 5. No programing language limit in general, but should present in [here](https://madnight.github.io/githut/#/pull_requests/2022/1)
-6. No `import` or implement your `import` in three keys also.
+6. No 'import' or implement your 'import' in three keys also.
 7. No compile hack, your code should run on a baby computer.
 
 ## Ranking
@@ -22,7 +22,7 @@ Ref to [排名](README.md#排名)
 
 - PR or come in.
 - Mkdir _your name_ and dump your shit in it.
-- Sign [here](README.md#排名) and leave comment
+- Sign [here](README.md#排名) and leave comment.
 
 ## Winner winner chicken dinner
 
@@ -36,13 +36,13 @@ Now! Right now! I mean this only take a few right?
 
 ### Can I hack compile parameter?
 
-No, behave yourself cowboy
+No, behave yourself cowboy.
 
 > 7. No compile hack. Your code should run on a baby computer.
 
 ### Can I request network?
 
-Ref to the rules, yes, but do your own homework and implement it
+Ref to the rules, yes, but do your own homework and implement it.
 
 > 3. The goal is print out exact `Hello, World!` case senstive. no more funny stuff this time pls.
 > 6. No `import` or implement your `import` in three keys also.
@@ -55,14 +55,6 @@ Seems like it, but not mean it. You can still give it a try.
 ### Is HTML, Brainfuck acceptable?
 
 Hell no. :)
-
-### I'm using a niche language that has appeared in previous Github language stats, but not in the latest quarterly stats, okay?
-
-Yes, as long as it appears in any period.
-
-> 5. Unlimited programming languages, but the use of very niche languages ​​is prohibited; our definition of very niche is: [Github language statistics](https://madnight.github.io/githut/#/pull_requests/2022/1 ) that never appeared on
-
-This rule is set up to prevent the competition from becoming a "minority language discovery competition that can directly output HelloWorld" or a "self-created language competition", not to impose too many restrictions on everyone.
 
 ### My language was in the statistics but not in most recent, still ok?
 
