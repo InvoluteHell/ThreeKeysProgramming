@@ -70,4 +70,4 @@ git clone https://github.com/InvoluteHell/ThreeKeysProgramming.git --depth=1
 
 ## Know more
 
-Join us on [QQ](https://jq.qq.com/?_wv=1027&k=8aBWumWU) (672372860) / [Telegram](https://t.me/+NjDljiDRrpI4NTU1), Or submit issues!
+Join us on [QQ](https://jq.qq.com/?_wv=1027&k=8aBWumWU) (672372860) / [Telegram](https://t.me/+NjDljiDRrpI4NTU1), or submit issues!

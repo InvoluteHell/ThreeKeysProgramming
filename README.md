@@ -88,9 +88,9 @@
 
 这条规则是为了避免比赛变成「可以直接输出 HelloWorld 的小众语言发掘大赛」或者「自创语言大赛」而设立的，并不是为了对大家进行过多的限制。
 
-### 为什么我无法正常 clone 这个项目？
+### 为什么我 clone 出错？
 
-之前有参赛选手在上传了一些文件名导致 Windows 下无法正常 clone, 请加上 `--depth=1` 参数再试试
+加上 `--depth=1` 再试试
 
 ```bash
 git clone https://github.com/InvoluteHell/ThreeKeysProgramming.git --depth=1
