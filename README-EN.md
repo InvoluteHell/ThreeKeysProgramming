@@ -62,7 +62,7 @@ Yep, that is a prove.
 
 ### Why can't I clone?
 
-Use follow
+Use follow.
 
 ```bash
 git clone https://github.com/InvoluteHell/ThreeKeysProgramming.git --depth=1
