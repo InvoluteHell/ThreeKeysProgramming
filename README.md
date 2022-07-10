@@ -12,10 +12,18 @@
 6. 所有的依赖条件均需是在本比赛开始前就是已有的；否则请上传，作为文件内容统计的一部分！
 7. 要求使用平庸的编译 / 执行命令及测试环境，除平庸部分外，其余部分也需要符合上述 1, 2 两条的要求
 
+## 目前排名
+
+| 排名 |                             作者                             |   体积    |       语言       |  留言 |
+| :--: | :----------------------------------------------------------: | :-------: | :--------------: | :--------------: |
+|  1   | [nocat](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/nocat) |  38 Bytes  |       PHP        | |
+|  2   | [鼹鼠](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E9%BC%B9%E9%BC%A0) |  7.6 KB  |       JavaScript        | |
+
 ## 参赛方式
 
 - 加入本 Github 组织 或者 Pull Request 提交代码
-- 每个人自己建一个文件夹
+- 每个人自己建一个文件夹，在里面放上代码和 README, 截图等
+- 修改上面的 [排名](#目前排名), 填入自己的成绩和想说的话
 
 ## 奖品
 
