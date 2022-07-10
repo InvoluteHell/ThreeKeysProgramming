@@ -5,7 +5,7 @@
 ## 比赛规则
 
 1. 参赛选手自行挑选三个「字母 / 数字」来编写代码，代码中的「字母 / 数字」**只能且必须** 有这三个
-2. 除此三个「字母 / 数字」外，额外允许使用普通键盘上的所有 ASCII 符号（例如 `{`, `;` 等等）
+2. 除此三个「字母 / 数字」外，额外允许使用普通键盘上的所有 ASCII 符号（例如 `{`, `;` 等）
 3. 该程序运行后输出 `Hello, World!`, 有且仅有该内容，要求分毫不差，注意大小写和符号
 4. 上传的所有文件体积最小者获胜！（结果截图、说明文档等的不算）
 5. 不限编程语言，但禁止使用极小众语言；我们对极小众的定义是：[Github 流行语言排行榜](https://hellogithub.com/report/tiobe/) 上从未出现过的语言
@@ -19,9 +19,9 @@
 | 排名 |                             作者                             |   体积    |       语言       |  留言 |
 | :--: | :----------------------------------------------------------: | :-------: | :--------------: | :--------------: |
 |  1   | [nocat](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/nocat) |  38 Bytes  |       PHP        | make PHP greate again!|
-|  2   | [Jack-Works](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/Jack-Works) |  142 bytes  |       JavaScript        |  |
+|  2   | [鼹鼠](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E9%BC%B9%E9%BC%A0) |  131 Bytes  |       JavaScript        | |
+|  3   | [Jack-Works](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/Jack-Works) |  142 bytes  |       JavaScript        |  |
 |  3   | [GalvinGao](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/GalvinGao) |  3.3 KB  |       JavaScript        | 感谢鼹鼠（ |
-|  4   | [鼹鼠](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E9%BC%B9%E9%BC%A0) |  7.6 KB  |       JavaScript        | |
 |  -   | [谓道之求](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E8%B0%93%E9%81%93%E4%B9%8B%E6%B1%82) |  138 Bytes |       Matlab        |   过几天就符合规则了） |
 
 ## 参赛方式
@@ -71,12 +71,14 @@
 不可以。
 
 - HTML 甚至不算一门编程语言，它也从未出现在 [Github 语言统计](https://madnight.github.io/githut/#/pull_requests/2022/1) 中
-- Brainfuck 也同样，而且就算允许，也无法符合比赛规则：
+- Brainfuck 也未出现过，而且就算允许，也无法符合比赛规则：  
   > 参赛选手自行挑选三个「字母 / 数字」来编写代码，代码中的「字母 / 数字」**只能且必须** 有这三个
 
 ### 我使用了某个小众语言，它在往期的 Github 语言统计中出现过，但最新季度的统计中没有它，可以么？
 
 可以，只要在任一期出现过均可。
+
+> 5. 不限编程语言，但禁止使用极小众语言；我们对极小众的定义是：[Github 流行语言排行榜](https://hellogithub.com/report/tiobe/) 上从未出现过的语言
 
 这条规则是为了避免比赛成为「可以直接输出 HelloWorld 的小众语言发掘大赛」或者「自创语言大赛」而设立的，并不是为了对大家进行过多的限制。
 
