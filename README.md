@@ -10,7 +10,7 @@
 4. 上传的所有文件体积最小者获胜！（结果截图、说明文档等的不算）
 5. 不限编程语言，但禁止使用极小众语言；我们对极小众的定义是：[Github 流行语言排行榜](https://hellogithub.com/report/tiobe/) 上从未出现过的语言
 6. 所有的依赖条件均需是在本比赛开始前就是已有的；否则请上传，作为文件内容统计的一部分！
-7. 要求使用平庸的编译 / 执行命令及测试环境，除平庸部分外，其余部分也需要符合上述 1, 2 两条的要求
+7. 要求使用平庸的编译/执行命令、测试环境、文件名，除平庸部分外，其余部分也需要符合上述 1, 2 两条的要求
 
 ## 目前排名
 
@@ -20,8 +20,8 @@
 | :--: | :----------------------------------------------------------: | :-------: | :--------------: | :--------------: |
 |  1   | [nocat](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/nocat) |  38 Bytes  |       PHP        | make PHP greate again!|
 |  2   | [GalvinGao](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/GalvinGao) |  3.3 KB  |       JavaScript        | 感谢鼹鼠（ |
-|  2   | [鼹鼠](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E9%BC%B9%E9%BC%A0) |  7.6 KB  |       JavaScript        | |
-|  3   | [谓道之求](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E8%B0%93%E9%81%93%E4%B9%8B%E6%B1%82) |  138 Bytes |       Matlab        |   过几天就符合规则了） |
+|  3   | [鼹鼠](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E9%BC%B9%E9%BC%A0) |  7.6 KB  |       JavaScript        | |
+|  -   | [谓道之求](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E8%B0%93%E9%81%93%E4%B9%8B%E6%B1%82) |  138 Bytes |       Matlab        |   过几天就符合规则了） |
 
 ## 参赛方式
 
@@ -41,6 +41,40 @@
 2022 年 7 月 10 日晚 8 点 ~ 2022 年 7 月 17 日晚 10 点（北京时间）
 
 在比赛开始前，规则会随时进行小幅度修改（做到更严谨，以防卡 bug），请以比赛正式开始后的规则为准
+
+## FAQ
+
+### 可以通过编译参数进行一些操作么？
+
+请参考比赛规则
+
+> 7. 要求使用平庸的编译/执行命令、测试环境、文件名，除平庸部分外，其余部分也需要符合上述 1, 2 两条的要求
+
+### 可以请求网络么？
+
+请参考比赛规则
+
+> 3. 该程序运行后输出 `Hello, World!`, 有且仅有该内容，要求分毫不差，注意大小写和符号
+> 6. 所有的依赖条件均需是在本比赛开始前就是已有的；否则请上传，作为文件内容统计的一部分！
+> 7. 要求使用平庸的编译/执行命令、测试环境、文件名，除平庸部分外，其余部分也需要符合上述 1, 2 两条的要求
+
+### 编译型语言（特别是 C/C++ ）是不是没戏了啊？
+
+好像是的，我们也在思考如何在不大幅度修改规则的前提下，开个口子让编译型语言也参加进来，但目前还没什么好主意。如果你有好的点子，也欢迎向我们提供~
+
+### HTML, Brainfuck 可以参赛么？
+
+不可以。
+
+- HTML 甚至不算一门编程语言，它也从未出现在 [Github 语言统计](https://madnight.github.io/githut/#/pull_requests/2022/1) 中
+- Brainfuck 也同样，而且就算允许，也无法符合比赛规则  
+  > 参赛选手自行挑选三个「字母 / 数字」来编写代码，代码中的「字母 / 数字」**只能且必须** 有这三个
+
+### 我找到了某个小众语言，它在往期的 Github 语言统计中出现过，但最新季度的统计中没有它，可以使用么？
+
+可以，只要在任一期出现过均可。
+
+这条规则是为了避免比赛成为「可以直接输出 HelloWorld 的小众语言发掘大赛」或者「自创语言大赛」而设立的，并不是为了对大家进行过多的限制
 
 ## 讨论
 
