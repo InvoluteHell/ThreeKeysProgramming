@@ -21,7 +21,8 @@
 |  1   | [nocat](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/nocat) |  38 Bytes  |       PHP        | make PHP greate again!|
 |  2   | [鼹鼠](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E9%BC%B9%E9%BC%A0) |  131 Bytes  |       JavaScript        | |
 |  3   | [Jack-Works](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/Jack-Works) |  142 bytes  |       JavaScript        |  |
-|  3   | [GalvinGao](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/GalvinGao) |  3.3 KB  |       JavaScript        | 感谢鼹鼠（ |
+|  3   | [benpigchu](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/benpigchu) |  142 Bytes  |       Python        | 大概还能再压，但是懒 |
+|  4   | [GalvinGao](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/GalvinGao) |  3.3 KB  |       JavaScript        | 感谢鼹鼠（ |
 |  -   | [谓道之求](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E8%B0%93%E9%81%93%E4%B9%8B%E6%B1%82) |  138 Bytes |       Matlab        |   过几天就符合规则了） |
 
 ## 参赛方式
@@ -71,7 +72,7 @@
 不可以。
 
 - HTML 甚至不算一门编程语言，它也从未出现在 [Github 语言统计](https://madnight.github.io/githut/#/pull_requests/2022/1) 中
-- Brainfuck 也未出现过，而且就算允许，也无法符合比赛规则：  
+- Brainfuck 也未出现过，而且就算允许，也无法符合比赛规则：
   > 参赛选手自行挑选三个「字母 / 数字」来编写代码，代码中的「字母 / 数字」**只能且必须** 有这三个
 
 ### 我使用了某个小众语言，它在往期的 Github 语言统计中出现过，但最新季度的统计中没有它，可以么？
