@@ -2,7 +2,7 @@
 
 English | [简体中文](README.md)
 
-Use only three keys to code the game!
+Programming with only three keys!
 
 ## Game rules
 
@@ -77,6 +77,6 @@ Previously, some contestants uploaded some file names, which caused the clone to
 git clone https://github.com/InvoluteHell/ThreeKeysProgramming.git --depth=1
 ````
 
-## discuss
+## Discuss
 
-Welcome to join [QQ group](https://jq.qq.com/?_wv=1027&k=8aBWumWU) (672372860), [Telegram group](https://t.me/+NjDljiDRrpI4NTU1), or share with everyone through issue, discussionss comminicate!
+Welcome to join the [QQ group](https://jq.qq.com/?_wv=1027&k=8aBWumWU) (672372860) and [Telegram group](https://t.me/+NjDljiDRrpI4NTU1), or share with everyone through issue, discussions comminicate!
