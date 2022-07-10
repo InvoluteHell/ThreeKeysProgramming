@@ -1,65 +1,60 @@
-# Three keys to code
+# Three Keys code dancing
 
 English | [简体中文](README.md)
 
-Programming with only three keys!
+Free of choice three keys to complate your master pices! ~~Cue Jay Chou 'ThreeKeys' challenge~~
 
-## Game rules
+## Not quite a rule
 
-1. You can choose three "letters or numbers" to write codes. The "letters or numbers" in the code **can only and must** have these three. These three "letters or numbers" must be used in the code, and only these three "letters or numbers" can be used.
-2. In addition to these three "letters/numbers", all ASCII symbols on a normal keyboard are additionally allowed (such as `{`, `;`, etc.)
-3. After the program runs, it outputs `Hello, World!`, there is and only this content, the requirements are exactly the same, pay attention to capitalization and symbols
-4. The one with the smallest size of all uploaded files wins! (Result screenshots, documentation, etc. are not counted)
-5. Not limited to programming languages, but the use of very niche languages is prohibited; our definition of very niche is: [Github language statistics](https://madnight.github.io/githut/#/pull_requests/2022/1) language never seen before
-6. All dependencies must be existing before the competition starts; otherwise, please upload it as part of the file content statistics!
-7. It is required to use mediocre compile/execution commands, test environments, and file names. Except for the mediocre parts, the rest also need to meet the requirements of 1 and 2 above.
+1. Candidate have free of choice three [letter / number] for coding, literally **three**.
+2. Beside of your favour of choice, all ASCII symbols on keyboard are free for use.
+3. The goal is print out exact `Hello, World!` case senstive. no more funny stuff this time pls.
+4. Winner is select by minnimum code size. (Exampt screenshoot and doc)
+5. No programing language limit in general, but should present in [here](https://madnight.github.io/githut/#/pull_requests/2022/1)
+6. No `import` or implement your `import` in three keys also.
+7. No compile hack, your code should run on a baby computer.
 
 ## Ranking
 
-Please reference to [排名](README.md#排名)
+Ref to [排名](README.md#排名)
 
-## How to participate
+## How to
 
-- Join this Github organization or submit code by Pull Request.
-- Everyone builds a folder and puts the code, README, screenshots, etc. in it.
-- Modify the above [Ranking](README.md#排名), fill in your own results and what you want to say.
+- PR or come in.
+- Mkdir _your name_ and dump your shit in it.
+- Sign [here](README.md#排名) and leave comment
 
-## Prizes
+## Winner winner chicken dinner
 
-Sorry, I can't mail you the prizes if you don't live in mainland China.
+Sry, mainland China pick up only.
+
+## Time window
+
+Now! Right now! I mean this only take a few right?
 
 ## FAQ
 
-### Can some operations be performed through compilation parameters?
+### Can I hack compile parameter?
 
-Please refer to the competition rules:
+No, behave yourself cowboy
 
-> 7. It is required to use mediocre compile/execution commands, test environments, and file names. Except for the mediocre parts, the rest also need to meet the requirements of 1 and 2 above.
+> 7. No compile hack. Your code should run on a baby computer.
 
-So it's almost impossible, but it's ok if you can follow the rules exactly.
+### Can I request network?
 
-### Can I request the network?
+Ref to the rules, yes, but do your own homework and implement it
 
-Please refer to the competition rules:
+> 3. The goal is print out exact `Hello, World!` case senstive. no more funny stuff this time pls.
+> 6. No `import` or implement your `import` in three keys also.
+> 7. No compile hack. Your code should run on a baby computer.
 
-> 3. After the program runs, it outputs `Hello, World!`, there is and only this content, it is required to be exactly the same, pay attention to capitalization and symbols
-> 6. All dependencies must be existing before the competition starts; otherwise, please upload it as part of the file content statistics!
-> 7. It is required to use mediocre compile/execution commands, test environments, and file names. Except for the mediocre parts, the rest also need to meet the requirements of 1 and 2 above.
+### Are you trying to bullying compiled language?
 
-Also almost infeasible, but ok if you can follow the rules exactly.
+Seems like it, but not mean it. You can still give it a try.
 
-### Are compiled languages ​​(especially C/C++) dead?
+### Is HTML, Brainfuck acceptable?
 
-Seems like yes, we're also thinking about how to make a way for compiled languages ​​to come in without drastically changing the rules, but there's no good idea yet.  
-If you have a good idea, please tell us!
-
-### HTML, Brainfuck can participate?
-
-Can NOT.
-
-- HTML is not even a programming language, it never appeared in [Github Language Statistics](https://madnight.github.io/githut/#/pull_requests/2022/1)
-- Brainfuck didn't show up either, and even if it was allowed, it wouldn't fit the rules of the game:
-  > Contestants choose three "letters/numbers" to write the code, the "letters/numbers" in the code **can only and must** have these three
+Hell no. :)
 
 ### I'm using a niche language that has appeared in previous Github language stats, but not in the latest quarterly stats, okay?
 
@@ -69,14 +64,18 @@ Yes, as long as it appears in any period.
 
 This rule is set up to prevent the competition from becoming a "minority language discovery competition that can directly output HelloWorld" or a "self-created language competition", not to impose too many restrictions on everyone.
 
-### Why can't I clone this project normally?
+### My language was in the statistics but not in most recent, still ok?
 
-Previously, some contestants uploaded some file names, which caused the clone to fail under Windows. Please add the `--depth=1` parameter and try again
+Yep, that is a prove.
+
+### Why can't I clone?
+
+Use follow
 
 ```bash
 git clone https://github.com/InvoluteHell/ThreeKeysProgramming.git --depth=1
 ````
 
-## Discuss
+## Know more
 
-Welcome to join the [QQ group](https://jq.qq.com/?_wv=1027&k=8aBWumWU) (672372860) and [Telegram group](https://t.me/+NjDljiDRrpI4NTU1), or share with everyone through issue, discussions comminicate!
+Join us on [QQ](https://jq.qq.com/?_wv=1027&k=8aBWumWU) (672372860) / [Telegram](https://t.me/+NjDljiDRrpI4NTU1), Or submit issues!
