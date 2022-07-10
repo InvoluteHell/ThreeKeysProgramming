@@ -19,7 +19,7 @@
 | 排名 |                             作者                             |   体积    |       语言       |  留言 |
 | :--: | :----------------------------------------------------------: | :-------: | :--------------: | :--------------: |
 |  1   | [nocat](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/nocat) |  38 Bytes  |       PHP        | |
-|  2   | [GalvinGao](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/GalvinGao) |  3.96 KB  |       JavaScript        | |
+|  2   | [GalvinGao](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/GalvinGao) |  3.26 KB  |       JavaScript        | |
 |  3   | [鼹鼠](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E9%BC%B9%E9%BC%A0) |  7.6 KB  |       JavaScript        | |
 
 ## 参赛方式
