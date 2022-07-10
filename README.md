@@ -18,7 +18,7 @@
 
 | 排名 |                             作者                             |   体积    |       语言       |  留言 |
 | :--: | :----------------------------------------------------------: | :-------: | :--------------: | :--------------: |
-|  1   | [nocat](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/nocat) |  38 Bytes  |       PHP        | |
+|  1   | [nocat](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/nocat) |  38 Bytes  |       PHP        | make PHP greate again!|
 |  2   | [鼹鼠](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E9%BC%B9%E9%BC%A0) |  7.6 KB  |       JavaScript        | |
 
 ## 参赛方式
