@@ -21,7 +21,7 @@
 
 | 排名 |                             作者                             |   体积    |       语言       |  留言 |
 | :--: | :----------------------------------------------------------: | :-------: | :--------------: | :--------------: |
-|  1   | [nocat](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/nocat) |  38 Bytes  |       PHP        | make PHP greate again!|
+|  1   | [nocat](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/nocat) |  36 Bytes  |       PHP        | make PHP greate again!|
 |  2   | [MoTIEdsuNe](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/MoTIEdsuNe)| 85 Bytes | Ruby | 大概还能再压，但是懒 |
 |  3   | [鼹鼠](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E9%BC%B9%E9%BC%A0) |  109 Bytes  |       JavaScript        | |
 |  4   | [FiveYellowMice](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/FiveYellowMice) |  111 bytes  |     Ruby     |  大概还能再压，但是懒 |
