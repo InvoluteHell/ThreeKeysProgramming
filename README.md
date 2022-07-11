@@ -27,7 +27,8 @@
 |  4   | [FiveYellowMice](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/FiveYellowMice) |  111 bytes  |     Ruby     |  大概还能再压，但是懒 |
 |  5   | [Jack-Works](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/Jack-Works) |  126 bytes  |       JavaScript        |  |
 |  6   | [benpigchu](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/benpigchu) |  142 Bytes  |       Python        | 大概还能再压，但是懒 |
-|  7   | [GalvinGao](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/GalvinGao) |  3.3 KB  |       JavaScript        | 感谢鼹鼠（ |
+|  7   | [MistEO](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/misteo) |  163 Bytes  |       Bash        | 大概没法压了，因为菜 |
+|  8   | [GalvinGao](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/GalvinGao) |  3.3 KB  |       JavaScript        | 感谢鼹鼠（ |
 |  -   | 许兴逸 | 124Bytes | Haskell | 我import了Data.Char【
 |  -   | [谓道之求](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E8%B0%93%E9%81%93%E4%B9%8B%E6%B1%82) |  138 Bytes |       Matlab        |   过几天就符合规则了） |
 |  -   | [Nyaacinth](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/Nyaacinth) |  257 Bytes |       Lua (LuaJIT)        |   做不到，但是 Lua 值得有姓名！ |
