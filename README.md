@@ -28,7 +28,7 @@
 |  4   | [鼹鼠](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E9%BC%B9%E9%BC%A0) |  109 Bytes  |       JavaScript        | |
 |  5   | [FiveYellowMice](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/FiveYellowMice) |  111 bytes  |     Ruby     |  大概还能再压，但是懒 |
 |  6   | [Jack-Works](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/Jack-Works) |  126 bytes  |       JavaScript        |  |
-|  7   | [benpigchu](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/benpigchu) |  142 Bytes  |       Python        | 大概还能再压，但是懒 |
+|  7   | [benpigchu](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/benpigchu) |  140 Bytes  |       Python        | 大概还能再压，但是懒 |
 |  8   | [MistEO](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/misteo) |  163 Bytes  |       Bash        | 大概没法压了，因为菜 |
 |  9   | [GalvinGao](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/GalvinGao) |  3.3 KB  |       JavaScript        | 感谢鼹鼠（ |
 |  -   | [许兴逸](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E8%AE%B8%E5%85%B4%E9%80%B8) | 124Bytes | Haskell | 我import了Data.Char【
