@@ -31,7 +31,7 @@
 |  8   | [GalvinGao](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/GalvinGao) |  3.3 KB  |       JavaScript        | 感谢鼹鼠（ |
 |  -   | 许兴逸 | 124Bytes | Haskell | 我import了Data.Char【
 |  -   | [谓道之求](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E8%B0%93%E9%81%93%E4%B9%8B%E6%B1%82) |  138 Bytes |       Matlab        |   过几天就符合规则了） |
-|  -   | [Nyaacinth](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/Nyaacinth) |  257 Bytes |       Lua (LuaJIT)        |   做不到，但是 Lua 值得有姓名！ |
+|  -   | [Nyaacinth](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/Nyaacinth) |  248 Bytes |       Lua (LuaJIT)        |   做不到，但是 Lua 值得有姓名！ |
 
 ## 参赛方式
 
