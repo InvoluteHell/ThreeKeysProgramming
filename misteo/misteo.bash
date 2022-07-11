@@ -1,0 +1,1 @@
+tr -d \\`tr %-t !-t<<<r`<<<`tr !-t /-t<<<:;tr ,-t --t<<<d;tr %-t --t<<<d;tr %-t --t<<<d;tr /-t ,-t<<<r;`", "`tr /-t +-t<<<[;tr /-t ,-t<<<r;`"r"`tr %-t --t<<<d`"d!"
