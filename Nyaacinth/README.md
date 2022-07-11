@@ -1,6 +1,4 @@
-## 被风雪掩盖的失败品
-
-----
+## 六键成码
 
 ### 使用字符串
 
@@ -19,7 +17,7 @@ LuaJIT 2.1，该方案依赖 Lua 5.1 标准中整浮点数隐式向整数转换�
 ```
 $ luajit -v
 LuaJIT 2.1.0-beta3 -- Copyright (C) 2005-2022 Mike Pall. https://luajit.org/
-$ luajit G1\?.lua 
+$ luajit G1.lua 
 Hello, World!
 $ _
 ```
