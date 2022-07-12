@@ -22,8 +22,8 @@
 
 | 排名 |                             作者                             |   体积    |       语言       |  留言 |
 | :--: | :----------------------------------------------------------: | :-------: | :--------------: | :--------------: |
-|  1   | [bakashigure](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/bakashigure) |  34 Bytes  |       PHP        | 狗都不写PHP |
-|  2   | [uye](https://github.com/InvoluteHell/ThreeKeysProgramming/blob/master/uye/) |  33 Bytes  |       PHP        | 狗都不写PHP |
+|  1   | [uye](https://github.com/InvoluteHell/ThreeKeysProgramming/blob/master/uye/) |  33 Bytes  |       PHP        | 狗都不写PHP |
+|  2   | [bakashigure](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/bakashigure) |  33 Bytes  |       PHP        | 狗都不写PHP |
 |  3   | [nocat](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/nocat) |  36 Bytes  |       PHP        | make PHP greate again!|
 |  4   | [MoTIEdsuNe](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/MoTIEdsuNe)| 85 Bytes | Ruby | 大概还能再压，但是懒 |
 |  5   | [鼹鼠](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E9%BC%B9%E9%BC%A0) |  109 Bytes  |       JavaScript        | |
