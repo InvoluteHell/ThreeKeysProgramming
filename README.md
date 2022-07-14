@@ -26,8 +26,8 @@
 |  2   | [bakashigure](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/bakashigure) |  33 Bytes  |       PHP        | 狗都不写PHP |
 |  3   | [nocat](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/nocat) |  36 Bytes  |       PHP        | make PHP greate again!|
 |  4   | [MoTIEdsuNe](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/MoTIEdsuNe)| 85 Bytes | Ruby | 大概还能再压，但是懒 |
-|  5   | [鼹鼠](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E9%BC%B9%E9%BC%A0) |  109 Bytes  |       JavaScript        | |
-|  6   | [MistEO](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/misteo) |  110 Bytes  |       Bash        | 大概还能再压，但是懒 |
+|  5   | [MistEO](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/misteo) |  108 Bytes  |       Bash        | 大概还能再压，但是懒 |
+|  6   | [鼹鼠](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E9%BC%B9%E9%BC%A0) |  109 Bytes  |       JavaScript        | |
 |  7   | [FiveYellowMice](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/FiveYellowMice) |  111 bytes  |     Ruby     |  大概还能再压，但是懒 |
 |  8   | [Jack-Works](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/Jack-Works) |  126 bytes  |       JavaScript        |  |
 |  9   | [benpigchu](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/benpigchu) |  140 Bytes  |       Python        | 大概还能再压，但是懒 |
