@@ -27,10 +27,10 @@
 |  3   | [nocat](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/nocat) |  36 Bytes  |       PHP        | make PHP greate again!|
 |  4   | [MoTIEdsuNe](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/MoTIEdsuNe)| 85 Bytes | Ruby | 大概还能再压，但是懒 |
 |  5   | [鼹鼠](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E9%BC%B9%E9%BC%A0) |  109 Bytes  |       JavaScript        | |
-|  6   | [FiveYellowMice](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/FiveYellowMice) |  111 bytes  |     Ruby     |  大概还能再压，但是懒 |
-|  7   | [Jack-Works](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/Jack-Works) |  126 bytes  |       JavaScript        |  |
-|  8   | [benpigchu](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/benpigchu) |  140 Bytes  |       Python        | 大概还能再压，但是懒 |
-|  9   | [MistEO](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/misteo) |  163 Bytes  |       Bash        | 大概没法压了，因为菜 |
+|  6   | [MistEO](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/misteo) |  110 Bytes  |       Bash        | 大概还能再压，但是懒 |
+|  7   | [FiveYellowMice](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/FiveYellowMice) |  111 bytes  |     Ruby     |  大概还能再压，但是懒 |
+|  8   | [Jack-Works](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/Jack-Works) |  126 bytes  |       JavaScript        |  |
+|  9   | [benpigchu](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/benpigchu) |  140 Bytes  |       Python        | 大概还能再压，但是懒 |
 |  10   | [dantmnf](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/dantmnf) |  247 Bytes  |       Ruby        | 本来是一个字母数字都不带，随便改改（ |
 |  11  | [vantis](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/vantis) | 792 Bytes | Java | 能不能写出来纯看字母选得好不好 =。= |
 |  12  | [GalvinGao](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/GalvinGao) |  3.3 KB  |       JavaScript        | 感谢鼹鼠（ |
