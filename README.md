@@ -6,7 +6,7 @@
 
 ## 比赛规则
 
-1. 参赛选手自行挑选三个「字母 / 数字」来编写代码，代码中的「字母 / 数字」**只能且必须** 有这三个
+1. 参赛选手自行挑选三个「字母 / 数字」来编写代码，代码中的「字母 / 数字」**只能且必须** 有这三个（大小写算两个不同的键）
 2. 除此三个「字母 / 数字」外，额外允许使用普通键盘上的所有 ASCII 符号（例如 `{`, `;` 等）
 3. 该程序运行后输出 `Hello, World!`, 有且仅有该内容，要求分毫不差，注意大小写和符号
 4. 上传的所有文件体积最小者获胜！（结果截图、说明文档等的不算）
@@ -22,11 +22,11 @@
 
 | 排名 |                             作者                             |   体积    |       语言       |  留言 |
 | :--: | :----------------------------------------------------------: | :-------: | :--------------: | :--------------: |
-|  1   | [uye](https://github.com/InvoluteHell/ThreeKeysProgramming/blob/master/uye/) |  31 Bytes  |       PHP        | 狗都不写PHP |
+|  1   | [uye](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/uye/) |  33 Bytes  |       PHP        | 狗都不写PHP |
 |  2   | [bakashigure](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/bakashigure) |  33 Bytes  |       PHP        | 狗都不写PHP |
 |  3   | [nocat](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/nocat) |  36 Bytes  |       PHP        | make PHP greate again!|
 |  4   | [MoTIEdsuNe](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/MoTIEdsuNe)| 85 Bytes | Ruby | 大概还能再压，但是懒 |
-|  5   | [MistEO](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/misteo) |  103 Bytes  |       Bash        | 好耶又超过鼹鼠了 |
+|  5   | [MistEO](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/misteo) |  91 Bytes  |       Bash        | 好耶又超过鼹鼠了 |
 |  6   | [鼹鼠](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E9%BC%B9%E9%BC%A0) |  103 Bytes  |       JavaScript        | 不能被玛丽这么轻松就 |
 |  7   | [FiveYellowMice](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/FiveYellowMice) |  111 bytes  |     Ruby     |  大概还能再压，但是懒 |
 |  8   | [Jack-Works](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/Jack-Works) |  126 bytes  |       JavaScript        |  |
