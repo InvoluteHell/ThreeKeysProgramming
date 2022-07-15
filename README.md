@@ -22,6 +22,7 @@
 
 | 排名 |                             作者                             |   体积    |       语言       |  留言 |
 | :--: | :----------------------------------------------------------: | :-------: | :--------------: | :--------------: |
+|  0   | [守夜人](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E5%AE%88%E5%A4%9C%E4%BA%BA) | 15 Byte  |  Ruby  | 这可是玛丽说允许的 |
 |  1   | [uye](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/uye/) |  33 Bytes  |       PHP        | 狗都不写PHP |
 |  2   | [bakashigure](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/bakashigure) |  33 Bytes  |       PHP        | 狗都不写PHP |
 |  3   | [nocat](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/nocat) |  36 Bytes  |       PHP        | make PHP greate again!|
