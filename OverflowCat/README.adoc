@@ -1,6 +1,6 @@
 = PowerShell
 
-link:/README_en[English] | 简体中文
+xref:README_en.adoc[English] | 简体中文
 
 image:http://telegra.ph/file/cb631e2869a7540a84b87.png[screenshot]
 

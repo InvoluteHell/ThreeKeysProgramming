@@ -1,6 +1,6 @@
 = A PowerShell Solution
 
-English | link:/README[简体中文]
+English | xref:README.adoc[简体中文]
 
 PowerShell is the \#33 most used language in Github as of 2022 Q1 according to https://madnight.github.io/githut/#/pull_requests/2022/1[GitHut's statistics]. Let's take a look at what this scripting language can do.
 
