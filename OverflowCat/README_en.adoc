@@ -1,0 +1,103 @@
+= A PowerShell Solution
+
+English | link:/README[简体中文]
+
+PowerShell is the \#33 most used language in Github as of 2022 Q1 according to https://madnight.github.io/githut/#/pull_requests/2022/1[GitHut's statistics]. Let's take a look at what this scripting language can do.
+
+image:http://telegra.ph/file/cb631e2869a7540a84b87.png[screenshot]
+
+== Code
+
+3 alphanumericals chosen: `i`, `e` and `x`.
+
+[source,powershell]
+----
+$i=$?+$?
+$e=$i+$i
+$xi=$x=$e+$i
+$xe=""+$x+$x
+$xx=""+$x+--$e
+$x=(""+$?)[$i]
+iex "`$ex=""``$x{$xe}"";`$xe=""``$x{$xx}"""
+$ii=$e+++$i
+$ix=$ii+$i
+$ei=$e*$i
+$x="``$x{"
+iex "`$e=""$x$e$ei}e$x$xi$xe}$x$xi$xe}$x$xi$ex}, $x$ii$ix}$x$xi$ex}$x$ix$i}$x$xi$xe}$x$xi$e}!"""
+$e
+----
+
+Semicolons are necessary if the code is written in a single line. The two are equivalent.
+
+[source,powershell]
+----
+$i=$?+$?;$e=$i+$i;$xi=$x=$e+$i;$xe=""+$x+$x;$xx=""+$x+--$e;$x=(""+$?)[$i];iex "`$ex=""``$x{$xe}"";`$xe=""``$x{$xx}""";$ii=$e+++$i;$ix=$ii+$i;$ei=$e*$i;$x="``$x{";iex "`$e=""$x$e$ei}e$x$xi$xe}$x$xi$xe}$x$xi$ex}, $x$ii$ix}$x$xi$ex}$x$ix$i}$x$xi$xe}$x$xi$e}!""";$e
+----
+
+=== Environment
+
+*PowerShell 7.2.5*
+
+Please install it manually. Since the code uses the `"`u{x}"` syntax which was added in PowerShell 6.0, it won't work on the one preinstalled on Windows.
+
+The code can be run by either pasting it into the PowerShell console or using `.\x.ps1`.
+
+== Explanation
+
+My first thought was if it is possible to directly add or subtract the ASCII value of chars like in most C-style language. However, this is not possible. The target type must be written when it comes to explicit type conversion. `[char]65` does give us the character `A`, but there are 4 different letters. And if we want to get a number, it's `[int] something`. footnote:[https://community.idera.com/database-tools/powershell/powertips/b/tips/posts/converting-ascii-and-characters[Converting ASCII and Characters - Power Tips - Power Tips - IDERA Community]]. 
+
+=== Selection of the 3 characters
+
+Then I try to find the eval function. First I found the very one `Invoke-Expression`, but that is too long. Most PowerShell commands are long. That's bad for a scripting language. Then I found that the ampersand, `&`, can execute command in a string. But it works on a single _command_, without parameters.footnote:[https://stackoverflow.com/questions/50018274/why-does-invoke-operator-and-invoke-expression-produce-different-results-for[Why does invoke operator (&) and Invoke-Expression produce different results for the same input? - Stack Overflow]] Luckily, there is an alias of `Invoke-Expression`: `iex`.
+
+=== The first digit
+
+Since there is no way to turn a single char into another, the only way to get a 4th character is to split a String elsewhere. In PowerShell, a character quoted by either `''` or `"` is always a string, an array of chars. There is no .pop() in Powershell,footnote:[https://stackoverflow.com/questions/24754822/powershell-remove-item-0-from-an-array[PowerShell Remove item 0 from an array - Stack Overflow]] so we need to access it by index if we want a specific character.
+
+[source,powershell]
+----
+$i = $? + $?
+----
+
+- $? contains the execution status of the last command. It is `True` initially or when the last command succeeded.footnote:[https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_automatic_variables?view=powershell-7.2#section-1[$? - PowerShell Core - About - Automatic Variables]]
+
+- The equivalent of `==` is `-eq` in Powershell; `$i==$i` won't work. 
+
+- `True` is `1` when casted to an integer.footnote:[https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-06?view=powershell-7.2#64-conversion-to-integer[Conversion#Conversion to integer]]
+
+- Most lines of code are aimed at getting the digits needed. There is still much room for optimization.
+
+=== Composing Unicode characters
+
+[source,powershell]
+----
+$x = ("" + $?)[$i]
+----
+
+- An empty string plus a boolean turns into a string.
+
+Thanks to the `u` in `"True"`, we can compose any Unicode character now. The hex for hello world string contains `c` and `f`. Just get the two first. The `$e` variable is actually: 
+
+[source,powershell]
+----
+$e = "``u{48}e``u{6c}``u{6c}``u{6f}, ``u{57}``u{6f}``u{72}``u{6c}``u{64}!";
+----
+
+==== Escaping
+
+[source,powershell]
+----
+iex "`$ex=""``$x{$xe}"";`$xe=""``$x{$xx}"""
+----
+
+- To escape ```, `$`, `"`, just add ``` in front of them or repeat the character itself.footnote:[https://www.rlmueller.net/PowerShellEscape.htm[Escaping in PowerShell]]
+
+=== Printing the result
+
+PowerShell prints out the value of the previous expression by default, so there is no need to `iex "echo"` something.
+
+=== Other possible approaches
+
+- The output of a command can be assigned to a variable. Maybe we can find all the needed characters in some commands' default output.
+
+- `$error` stores previous error messages and requires 3 characters.
