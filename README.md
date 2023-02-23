@@ -22,19 +22,20 @@
 
 | 排名 |                             作者                             |   体积    |       语言       |  留言 |
 | :--: | :----------------------------------------------------------: | :-------: | :--------------: | :--------------: |
-|  1   | [uye](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/uye/) |  33 Bytes  |       PHP        | 狗都不写PHP |
-|  1   | [bakashigure](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/bakashigure) |  33 Bytes  |       PHP        | 狗都不写PHP |
-|  3   | [nocat](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/nocat) |  36 Bytes  |       PHP        | make PHP greate again!|
-|  4   | [MoTIEdsuNe](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/MoTIEdsuNe)| 85 Bytes | Ruby | 大概还能再压，但是懒 |
-|  5   | [MistEO](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/misteo) |  91 Bytes  |       Bash        | 好耶又超过鼹鼠了 |
-|  5   | [satgo1546](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/satgo1546) |  91 Bytes  | C | C语言你得给劲儿啊 |
-|  7   | [鼹鼠](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E9%BC%B9%E9%BC%A0) |  103 Bytes  |       JavaScript        | 不能被玛丽这么轻松就 |
-|  8   | [FiveYellowMice](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/FiveYellowMice) |  111 bytes  |     Ruby     |  大概还能再压，但是懒 |
-|  9   | [Jack-Works](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/Jack-Works) |  126 bytes  |       JavaScript        |  |
-|  10  | [benpigchu](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/benpigchu) |  140 Bytes  |       Python        | 大概还能再压，但是懒 |
-|  11  | [dantmnf](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/dantmnf) |  247 Bytes  |       Ruby        | 本来是一个字母数字都不带，随便改改（ |
-|  12  | [vantis](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/vantis) | 792 Bytes | Java | 能不能写出来纯看字母选得好不好 =。= |
-|  13  | [GalvinGao](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/GalvinGao) |  3.3 KB  |       JavaScript        | 感谢鼹鼠（ |
+|  1   | [NotMonika](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/NotMonika/) |  5 Bytes  |       Shell        | 面向文件编程（ |
+|  2   | [uye](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/uye/) |  33 Bytes  |       PHP        | 狗都不写PHP |
+|  2   | [bakashigure](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/bakashigure) |  33 Bytes  |       PHP        | 狗都不写PHP |
+|  4   | [nocat](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/nocat) |  36 Bytes  |       PHP        | make PHP greate again!|
+|  5   | [MoTIEdsuNe](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/MoTIEdsuNe)| 85 Bytes | Ruby | 大概还能再压，但是懒 |
+|  6   | [MistEO](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/misteo) |  91 Bytes  |       Bash        | 好耶又超过鼹鼠了 |
+|  6   | [satgo1546](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/satgo1546) |  91 Bytes  | C | C语言你得给劲儿啊 |
+|  8   | [鼹鼠](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E9%BC%B9%E9%BC%A0) |  103 Bytes  |       JavaScript        | 不能被玛丽这么轻松就 |
+|  9   | [FiveYellowMice](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/FiveYellowMice) |  111 bytes  |     Ruby     |  大概还能再压，但是懒 |
+|  10   | [Jack-Works](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/Jack-Works) |  126 bytes  |       JavaScript        |  |
+|  11  | [benpigchu](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/benpigchu) |  140 Bytes  |       Python        | 大概还能再压，但是懒 |
+|  12  | [dantmnf](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/dantmnf) |  247 Bytes  |       Ruby        | 本来是一个字母数字都不带，随便改改（ |
+|  13  | [vantis](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/vantis) | 792 Bytes | Java | 能不能写出来纯看字母选得好不好 =。= |
+|  14  | [GalvinGao](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/GalvinGao) |  3.3 KB  |       JavaScript        | 感谢鼹鼠（ |
 |  -   | [许兴逸](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E8%AE%B8%E5%85%B4%E9%80%B8) | 124Bytes | Haskell | 我import了Data.Char【
 |  -   | [谓道之求](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E8%B0%93%E9%81%93%E4%B9%8B%E6%B1%82) |  138 Bytes |       Matlab        |   过几天就符合规则了） |
 |  -   | [Nyaacinth](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/Nyaacinth) |  248 Bytes |       Lua (LuaJIT)        |   做不到，但是 Lua 值得有姓名！ |
