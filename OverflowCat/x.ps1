@@ -1,0 +1,1 @@
+$i=$?+$?;$e=$i+$i;$xi=$x=$e+$i;$xe=""+$x+$x;$xx=""+$x+--$e;$x=(""+$?)[$i];iex "`$ex=""``$x{$xe}"";`$xe=""``$x{$xx}""";$ii=$e+++$i;$ix=$ii+$i;$ei=$e*$i;$x="``$x{";iex "`$e=""$x$e$ei}e$x$xi$xe}$x$xi$xe}$x$xi$ex}, $x$ii$ix}$x$xi$ex}$x$ix$i}$x$xi$xe}$x$xi$e}!""";$e

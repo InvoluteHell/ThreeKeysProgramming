@@ -1,0 +1,99 @@
+= PowerShell
+
+xref:README_en.adoc[English] | 简体中文
+
+image:http://telegra.ph/file/cb631e2869a7540a84b87.png[screenshot]
+
+== 代码
+
+选择的 3 个字母：`i`、`e`、`x`。
+
+[source,powershell]
+----
+$i=$?+$?
+$e=$i+$i
+$xi=$x=$e+$i
+$xe=""+$x+$x
+$xx=""+$x+--$e
+$x=(""+$?)[$i]
+iex "`$ex=""``$x{$xe}"";`$xe=""``$x{$xx}"""
+$ii=$e+++$i
+$ix=$ii+$i
+$ei=$e*$i
+$x="``$x{"
+iex "`$e=""$x$e$ei}e$x$xi$xe}$x$xi$xe}$x$xi$ex}, $x$ii$ix}$x$xi$ex}$x$ix$i}$x$xi$xe}$x$xi$e}!"""
+$e
+----
+
+压成一行时语句结尾需要有分号。
+
+[source,powershell]
+----
+$i=$?+$?;$e=$i+$i;$xi=$x=$e+$i;$xe=""+$x+$x;$xx=""+$x+--$e;$x=(""+$?)[$i];iex "`$ex=""``$x{$xe}"";`$xe=""``$x{$xx}""";$ii=$e+++$i;$ix=$ii+$i;$ei=$e*$i;$x="``$x{";iex "`$e=""$x$e$ei}e$x$xi$xe}$x$xi$xe}$x$xi$ex}, $x$ii$ix}$x$xi$ex}$x$ix$i}$x$xi$xe}$x$xi$e}!""";$e
+----
+
+=== 环境
+
+*PowerShell 7.2.5*
+
+需要自行安装，Windows 自带的版本较旧，没有 Unicode 转义字符。
+
+代码可以在终端直接粘贴，或者通过 `.\x.ps1` 运行。
+
+== 原理
+
+=== 选择字母
+
+PowerShell 中无法对 Char 进行加减操作，显式地进行类型转换也需要类似 `[char]65` 至少 4 个字母。footnote:[https://community.idera.com/database-tools/powershell/powertips/b/tips/posts/converting-ascii-and-characters[Converting ASCII and Characters - Power Tips - Power Tips - IDERA Community]]所以只能考虑 eval。PowerShell 中的命令名都很长，不过 Invoke-Expression 有别名 `iex`。另外有一个可以执行字符串的操作符 `&`，但是只能是命令名，不能带参数。footnote:[https://stackoverflow.com/questions/50018274/why-does-invoke-operator-and-invoke-expression-produce-different-results-for[Why does invoke operator (&) and Invoke-Expression produce different results for the same input? - Stack Overflow]]
+
+=== 第一个数字
+
+因为不能直接出现数字了，所以需要想办法得到第一个 Int 类型的值。发现数组下标为空字符串 `''` 时可以得到数组的第一个元素，但是如果想要后面的字母的话，PowerShell 并没有提供 pop 等函数。footnote:[https://stackoverflow.com/questions/24754822/powershell-remove-item-0-from-an-array[PowerShell Remove item 0 from an array - Stack Overflow]]数字字面量也都至少需要有 `0` 出现。所以只能通过其他类型隐式转换出 Int 来。
+
+[source,powershell]
+----
+$i = $? + $?
+----
+
+- `$?` 表示上一条命令的返回值，在初始时和上一条命令没有出错时为 `True`。footnote:[https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_automatic_variables?view=powershell-7.2#section-1[$? - PowerShell Core - About - Automatic Variables]]
+
+- PowerShell 中的 `==` 是 `-eq`，需要额外的字母。
+
+- 当 Bool 类型转换为整数时，`True` 是 `1`，故 `$i` 为 `2`。footnote:[https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-06?view=powershell-7.2#64-conversion-to-integer[Conversion#Conversion to integer]]
+
+剩下的大部分操作都是在构造其他数字，代码的长度应该可以再压缩一点。
+
+=== 构造 Unicode
+
+[source,powershell]
+----
+$x = ("" + $?)[$i]
+----
+
+- `+` 运算符的两个参数类型不一致的时候，会将第二个参数隐式转换为第一个参数的类型。故此处 `$e` 为 String `"True"`。
+
+至此，我们有了所需的数字和字母 `u`，可以用 `"`u{x}"` 来生成一切字符了。不过，`"Hello World!"` 除了可以直接输入的 `e`、空格和 `!`，十六进制值中还需要 `c` 和 `f`。幸好这两个的编码分别为 `63` 和 `66`，没有 a-f 出现。`$e` 实际上就是：
+
+[source,powershell]
+----
+$e = "``u{48}e``u{6c}``u{6c}``u{6f}, ``u{57}``u{6f}``u{72}``u{6c}``u{64}!";
+----
+
+==== 转义字符
+
+[source,powershell]
+----
+iex "`$ex=""``$x{$xe}"";`$xe=""``$x{$xx}"""
+----
+
+- 字符串用双引号的好处是可以直接嵌入变量。如果要 escape 的话，需要在 `$`、`"`、``` 前面加上 ```；`"` 也可以自身重复两次 `""` 来 escape。footnote:[https://www.rlmueller.net/PowerShellEscape.htm[Escaping in PowerShell]]
+
+=== 打印值
+
+PowerShell 默认打印出前一个表达式的值，所以不需要拼凑出 `"echo"` 再 `iex` 什么的。
+
+=== 其他可能的方法
+
+- 变量赋值时可以直接是命令的输出。比如旧版 PowerShell 可以通过 `$ls = ls; $ls[x][x]` 拿到 ls 命令表头具体的一个 Char，或许有的命令的输出包含全部所需的字母。但是新版中大部分命令的输出不再是字符串而是对象了，两次下标拿到的仍然和原结果一样。
+
+- `$error` 是一个存放了错误信息字符串的数组。footnote:[https://www.tutorialspoint.com/what-is-use-of-error-variable-in-powershell[What is use of $error variable in PowerShell?]]不过，错误会直接输出，不符合「该程序运行后输出 Hello, World!, 有且仅有该内容，要求分毫不差」的要求。
