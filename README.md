@@ -36,6 +36,7 @@
 |  12  | [OverflowCat](/OverflowCat) | 261 Bytes | PowerShell | 为什么不试试 M$ 的功率壳呢？ |
 |  13  | [vantis](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/vantis) | 792 Bytes | Java | 能不能写出来纯看字母选得好不好 =。= |
 |  14  | [GalvinGao](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/GalvinGao) |  3.3 KB  |       JavaScript        | 感谢鼹鼠（ |
+|  15  | [Elihuso](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/Elihuso) |  8.3 KB  |       JavaScript       |  js本来就很fuck(  |
 |  -   | [许兴逸](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E8%AE%B8%E5%85%B4%E9%80%B8) | 124Bytes | Haskell | 我import了Data.Char【
 |  -   | [谓道之求](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/%E8%B0%93%E9%81%93%E4%B9%8B%E6%B1%82) |  138 Bytes |       Matlab        |   过几天就符合规则了） |
 |  -   | [Nyaacinth](https://github.com/InvoluteHell/ThreeKeysProgramming/tree/master/Nyaacinth) |  248 Bytes |       Lua (LuaJIT)        |   做不到，但是 Lua 值得有姓名！ |
